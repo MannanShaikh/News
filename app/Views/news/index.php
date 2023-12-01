@@ -7,7 +7,7 @@
         <h3><?= esc($news_item['title']) ?></h3>
 
         <div class="main">
-            <?= esc($news_item['body']) ?>
+            <?= esc($news_item['text']) ?>
         </div>
         <p><a href="/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
 
